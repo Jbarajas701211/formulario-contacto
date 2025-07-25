@@ -16,5 +16,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         document.getElementById('contactForm').reset();
     } else {
         alert('Por favor, completa todos los campos obligatorios.');
+        alert('Asegúrate de que todos los campos estén llenos correctamente.');
     }
 });
